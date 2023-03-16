@@ -55,7 +55,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/APIFolks?id=2",
+					"raw": "http://localhost:3000/APIFolks?id=9",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -67,7 +67,7 @@
 					"query": [
 						{
 							"key": "id",
-							"value": "2"
+							"value": "9"
 						}
 					]
 				}
