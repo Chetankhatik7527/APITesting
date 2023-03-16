@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "4b29597f-41ea-4cfa-a3cc-43b07c783c81",
+		"name": "API_day3_Collection1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TC1_Post",
+			"_postman_id": "e3cb0256-6541-4207-aacd-8d44772683af",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\": \"Chetan\",\r\n    \"lastname\": \"Khatik\",\r\n    \"Age\": \"24\",\r\n    \"Designation\": \"QA Engineer\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/APIFolks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"APIFolks"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC2_GetParticular_QueryParameter",
+			"_postman_id": "a878f13d-d1b6-46d9-8b65-b7a988c685dd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/APIFolks?id=10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"APIFolks"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC3_GetALL",
+			"_postman_id": "c5ea3cf1-ccb8-4223-83b8-ea64087205a7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/APIFolks"
+			},
+			"response": []
+		},
+		{
+			"name": "TC4_GetParticular_PathParameter",
+			"_postman_id": "84c86872-cd5d-4100-a192-b95771260d3b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/APIFolks/3"
+			},
+			"response": []
+		},
+		{
+			"name": "TC5_GetParticular_multipleQueryParams",
+			"_postman_id": "5278d0ea-75e3-4269-92fe-a115d1a74e7c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/APIFolks?id=2&designation=QA Engineer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"APIFolks"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						},
+						{
+							"key": "designation",
+							"value": "QA Engineer"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TC_DeleteReq",
+			"_postman_id": "818091ad-75b0-4b31-9dfa-7f7e3b518c23",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/APIFolks/1"
+			},
+			"response": []
+		}
+	]
+}
