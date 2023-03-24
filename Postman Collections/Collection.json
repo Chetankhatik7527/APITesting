@@ -141,14 +141,24 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "TC7_Put_updateWithExistingData",
 			"id": "1baf17b0-690f-4a1c-bfa1-6c5e790920f2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\": \"Chetank\",\r\n    \"lastname\": \"Khatik\",\r\n    \"Age\": \"24\",\r\n    \"Designation\": \"QA Engineer\",\r\n    \"id\": 11\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{Base}}/APIFolks/11"
 			},
 			"response": []
 		}
