@@ -53,12 +53,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/APIFolks?id=9",
-					"protocol": "http",
+					"raw": "{{Base}}/APIFolks?id=9",
 					"host": [
-						"localhost"
+						"{{Base}}"
 					],
-					"port": "3000",
 					"path": [
 						"APIFolks"
 					],
