@@ -161,6 +161,18 @@
 				"url": "{{Base}}/APIFolks/11"
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "4413cf63-5579-4a4a-ab39-56003db20cf1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
