@@ -192,7 +192,17 @@
 			},
 			"request": {
 				"method": "PUT",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\": \"Pushpa\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{Base}}/APIFolks/11"
 			},
 			"response": []
 		}
