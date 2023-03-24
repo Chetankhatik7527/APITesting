@@ -163,18 +163,6 @@
 			"response": []
 		},
 		{
-			"name": "TC7_Put_AddNewDataWithoutExistingData",
-			"id": "4413cf63-5579-4a4a-ab39-56003db20cf1",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
-		},
-		{
 			"name": "New Request",
 			"id": "60c08832-6868-44bc-b131-bc19e31d02c0",
 			"protocolProfileBehavior": {
