@@ -163,7 +163,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "TC8_Patch_UpdateData",
 			"id": "60c08832-6868-44bc-b131-bc19e31d02c0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
