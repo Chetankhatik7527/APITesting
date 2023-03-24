@@ -151,7 +151,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"firstname\": \"Chetank\",\r\n    \"lastname\": \"Khatik\",\r\n    \"Age\": \"24\",\r\n    \"Designation\": \"QA Engineer\",\r\n    \"id\": 11\r\n}",
+					"raw": "{\r\n    \"firstname\": \"Ck\",\r\n    \"lastname\": \"CK\",\r\n    \"Age\": \"49\",\r\n    \"Designation\": \"Developer\",\r\n    \"id\": 11\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
