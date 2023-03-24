@@ -92,7 +92,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:3000/APIFolks/3"
+				"url": "{{Base}}/APIFolks/3"
 			},
 			"response": []
 		},
