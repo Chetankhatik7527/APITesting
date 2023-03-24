@@ -136,7 +136,7 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"url": "http://localhost:3000/APIFolks/1"
+				"url": "{{Base}}/APIFolks/12"
 			},
 			"response": []
 		}
