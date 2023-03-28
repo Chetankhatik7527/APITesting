@@ -92,7 +92,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "{{Base}}/APIFolks/3"
+				"url": "{{Base}}/APIFolks/4"
 			},
 			"response": []
 		},
